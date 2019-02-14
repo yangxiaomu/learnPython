@@ -10,7 +10,7 @@ sys.setdefaultencoding( "utf-8" )
 
 csv_file = 'search_history.csv'
 # export_solr_server = 'http://localhost:10080/solr/search_history/select?wt=json&indent=true&q=*:*&start=0&rows='
-q = 'search_date:%5B*+TO+2019-02-16T12:12:04Z%5D'
+q = 'search_date:%5B*+TO+2019-01-16T12:12:04Z%5D'
 # q = '*:*'
 export_solr_server = 'http://localhost:10080/solr/search_history/select?indent=on&q=' + q + \
                      '&sort=search_date+asc&wt=json&rows='
